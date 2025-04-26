@@ -1,0 +1,13 @@
+prefix=/Users/aditya/Desktop/UDEMY_DATASCIENCE/venv
+exec_prefix=/Users/aditya/Desktop/UDEMY_DATASCIENCE/venv
+libdir=/Users/aditya/Desktop/UDEMY_DATASCIENCE/venv/lib
+sharedlibdir=/Users/aditya/Desktop/UDEMY_DATASCIENCE/venv/lib
+includedir=/Users/aditya/Desktop/UDEMY_DATASCIENCE/venv/include
+
+Name: zlib
+Description: zlib compression library
+Version: 1.2.13
+
+Requires:
+Libs: -L${libdir} -L${sharedlibdir} -lz
+Cflags: -I${includedir}
